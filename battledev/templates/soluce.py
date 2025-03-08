@@ -14,6 +14,23 @@ N = int(input())
 # N,M = map(int,input().split())
 T = [input() for _ in range(N)]
 
+N, M = tuple(map(int, input().split()))
+line =""
+N, M = tuple(map(int, line.rstrip('\r').split()))
 
+
+#perr
 print('==> debug :', T,file=sys.stderr)
 
+
+def memoize(f):
+    memo = {}
+    def helper(x):
+        if x not in memo:
+            memo[x] = f(x)
+        return memo[x]
+    return helper
+
+@memoize
+def path(coord):
+    print(coord)

@@ -1,0 +1,57 @@
+{
+    // Utilisez IntelliSense pour en savoir plus sur les attributs possibles.
+    // Pointez pour afficher la description des attributs existants.
+    // Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Python : fichier actif",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: fichier actif samples/input1",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [ "<", "${fileDirname}/samples/input1.txt"]
+        },
+        {
+            "name": "Python: fichier actif samples/input2",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [ "<", "${fileDirname}/samples/input2.txt"]
+        },
+        {
+            "name": "Python: fichier actif samples/input3",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [ "<", "${fileDirname}/samples/input3.txt"]
+        },
+        {
+            "name": "Python: fichier actif samples/input4",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [ "<", "${fileDirname}/samples/input4.txt"]
+        },
+        {
+            "name": "Python: fichier actif samples/input5",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [ "<", "${fileDirname}/samples/input5.txt"]
+        }
+    ]
+}
